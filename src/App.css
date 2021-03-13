@@ -1,13 +1,13 @@
 .header-color {
   background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #fcb045, #9cfd1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #1d86fd, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .landing-grid {
   background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #fcb045, #1ad48d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1c4cd1, #3fcaac, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   position: fixed;
   top: 0;
@@ -27,6 +27,25 @@
   padding: 2em;
 }
 
+/* about page css*/
+
+
+#image img{
+  border-radius: 80px;
+  height:300px;
+}
+
+.desc {
+  max-width: 300px;
+  margin:20px;
+  padding: 20px;
+}
+.desc h3 {
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
 /* contact page css */
 
 .contact-body {
@@ -37,6 +56,7 @@
   justify-content: center;
   padding-top: 2em;
 }
+
 
 .contact-grid {
   text-align: center;
@@ -52,10 +72,7 @@
   font-family: 'Anton', sans-serif;
 }
 
-.contact-grid p {
-  font-family: 'Oxygen', sans-serif;
-  font-weight: bold;
-}
+.
 
 .contact-grid hr {
   border-top: 5px dotted black;

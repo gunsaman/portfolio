@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import image from './images/cv-photo.jpg'
 
 
 class Landing extends Component {
@@ -9,7 +10,8 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+              src={image}
+              
               alt="avatar"
               className="avatar-img"
               />
@@ -19,29 +21,26 @@ class Landing extends Component {
 
             <hr/>
 
-          <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
+          <p>HTML/CSS | Java | JavaScript | React | React Native | NodeJS | Express | MySQL</p>
 
         <div className="social-links">
 
           {/* LinkedIn */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          <a href="https://www.linkedin.com/in/anillama1991/" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-linkedin-square" aria-hidden="true" />
           </a>
 
           {/* Github */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          <a href="https://github.com/gunsaman" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-github-square" aria-hidden="true" />
           </a>
 
-          {/* Freecodecamp */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-free-code-camp" aria-hidden="true" />
+          {/* Facebook */}
+          <a href="https://www.facebook.com/heavengunsa" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-facebook" aria-hidden="true" />
           </a>
 
-          {/* Youtube */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-youtube-square" aria-hidden="true" />
-          </a>
+          
 
         </div>
             </div>
